@@ -16,7 +16,7 @@
 	
 	h1, h2, h3
 	{
-		margin: 0;
+		margin: 0px 50px;
 		padding: 0;
 		color: #404040;
 	}
@@ -61,7 +61,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		max-width: 1200px;
 	}
 	
 
@@ -294,7 +294,7 @@
 
 	.title
 	{
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 	
 	.title h2
@@ -433,6 +433,11 @@
 		padding: 0em 0em 1em 0em;
 		background: #FFF;
 	}
+
+    th {
+        width: 25%;
+        padding: 25px;
+    }
 
 	#wrapper1
 	{
@@ -676,7 +681,7 @@
 	#three-column #tbox2,
 	#three-column #tbox3
 	{
-		float: left;
+		float: right;
 		width: 320px;
 		padding: 80px 40px 80px 40px;
 	}
